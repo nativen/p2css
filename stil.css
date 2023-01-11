@@ -1,0 +1,163 @@
+/*burada body alani arka plani sarı yesilimsi olarak degistirilecektir*/
+body{
+    /*
+    background-color: yellowgreen;
+    background-image: url('resim1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    */
+    
+    background: yellowgreen url('resim1.jpeg') no-repeat right top;
+}
+
+p{
+    color: red;
+    background-color: thistle;
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 10pt;
+    letter-spacing: 0.1cm;
+    line-height: 5mm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.p1{
+    font-size: 101%;
+    background-color: wheat;
+
+    border-left-color: red;
+    border-top-color: blue;
+    border-right-color: darkgreen;
+
+    border-left-width: 5px;
+    border-top-width: 10px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+
+    border-left-style: solid;
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+
+}
+
+.ozelp{
+    color: rgb(1, 7, 0); /*red green blue 0 255*/
+    text-align: right;
+
+}
+#pID{
+    color: #4297A0;
+    background-color: #F4EAE6;
+    text-align: center;
+}
+
+a{
+    padding: 10px;
+    margin: 10px;
+    background-color: burlywood;
+}
+.ozela{
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+.ozela:link{
+    background-color: rgb(32, 107,33);
+}
+.ozela:visited{
+    background-color: turquoise;
+}
+.ozela:hover{
+    background-color: tomato;
+}
+.ozela:active{
+    background-color: orange;
+}
+.ozela1{
+    text-transform: lowercase;
+}
+.deneme1{
+    border-color: lavenderblush;
+}
+ul{
+    background-color: rgb(170, 255, 0);
+}
+
+li{
+    background-color: blanchedalmond;
+    margin: 10px
+}
+
+.ul-kare{
+    list-style-type: square;
+    list-style-position: inside;
+    border: rgb(3, 167, 232) solid 5px;
+
+    outline: orange dasshed 15px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+.ul-decimal{
+    list-style-type: decimal;
+    border: blueviolet dashed 5px;
+    outline-style: dotted;
+    outline-width: 7px;
+    outline-color: red;
+    margin: 10px 20px 30px 40px;
+}
+
+.ul-decimal, .ul-roman, p{
+    font-size: small;
+}
+
+div .p-onemli{
+    background-color: yellow;
+    margin: 30px 430px 30px 30px;
+}
+
+.ul-roman{
+list-style-type: upper-roman;    
+border: rgb(230, 47, 230) dotted 5px;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+}
+
+.ul-greek{
+    list-style-type: lower-greek;
+    border:coral double 10px;
+    padding: 20px 30px 20px 30px;
+}
+
+.ul-ermeni{
+    list-style-type: armenian;
+    border:coral groove 10px;
+}
+
+.ul-latin{
+    list-style-type: lower-alpha;
+    border:coral ridge 10px;
+}
+
+.ul-krill{
+    list-style-type: circle;
+    border:coral inset 10px;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+table{
+    border-collapse: collapse;
+    
+    
+    
+}
+
